@@ -3,63 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferrari Fan Club</title>
+    <title>Ferrari</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-
         header {
-            background-color: #dc0000;
+            background-color: #DC143C;
             color: white;
-            padding: 1em;
+            padding: 20px;
             text-align: center;
         }
-
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
         section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
-
         footer {
-            background-color: #dc0000;
+            background-color: #333;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
-        }
-
-        h1, h2, h3 {
-            color: #dc0000;
-        }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .ferrari-logo {
-            width: 100px;
-            height: auto;
-            margin: 0 auto;
-            display: block;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dferrari%2BLogo&psig=AOvVaw3JTwXguNTI_TQjmxCTcS55&ust=1707315689015000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiVjub0loQDFQAAAAAdAAAAABAJ" alt="Ferrari" class="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dferrari%2BLogo&psig=AOvVaw3JTwXguNTI_TQjmxCTcS55&ust=1707315689015000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiVjub0loQDFQAAAAAdAAAAABAJ">
-        <
+        <h1>Ferrari</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#models">Modelos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <section id="about">
+        <h2>Sobre a Ferrari</h2>
+        <p>A Ferrari é uma fabricante italiana de carros esportivos de luxo. Fundada por Enzo Ferrari em 1939, a empresa se tornou um dos nomes mais famosos e bem-sucedidos no mundo automotivo.</p>
+    </section>
+    <section id="models">
+        <h2>Modelos</h2>
+        <ul>
+            <li>Ferrari 488 GTB</li>
+            <li>Ferrari Portofino</li>
+            <li>Ferrari 812 Superfast</li>
+            <li>Ferrari SF90 Stradale</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <p>Email: info@ferrari.com</p>
+        <p>Telefone: +39 123 456 789</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ferrari. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
