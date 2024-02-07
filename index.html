@@ -3,76 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferrari</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #DC143C;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>NASA Explorer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ferrari</h1>
+        <div class="header-container">
+            <img src="nasa-logo.png" alt="NASA Logo" class="logo">
+            <h1>NASA Explorer</h1>
+        </div>
     </header>
+
     <nav>
-        <a href="#about">Sobre</a>
-        <a href="#models">Modelos</a>
-        <a href="#contact">Contato</a>
-    </nav>
-    <section id="about">
-        <h2>Sobre a Ferrari</h2>
-        <p>A Ferrari é uma fabricante italiana de carros esportivos de luxo. Fundada por Enzo Ferrari em 1939, a empresa se tornou um dos nomes mais famosos e bem-sucedidos no mundo automotivo.</p>
-    </section>
-    <section id="models">
-        <h2>Modelos</h2>
         <ul>
-            <li>Ferrari 488 GTB</li>
-            <li>Ferrari Portofino</li>
-            <li>Ferrari 812 Superfast</li>
-            <li>Ferrari SF90 Stradale</li>
+            <li><a href="#missions">Missões</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#news">Notícias</a></li>
         </ul>
+    </nav>
+
+    <section id="missions">
+        <h2>Explorando o Universo</h2>
+        <!-- Conteúdo sobre missões espaciais da NASA -->
     </section>
-    <section id="contact">
-        <h2>Contato</h2>
-        <p>Para mais informações, entre em contato com o Sun:</p>
+
+    <section id="gallery" class="dark-section">
+        <h2>Galeria Espacial</h2>
+        <!-- Conteúdo sobre imagens e vídeos da NASA -->
     </section>
+
+    <section id="news">
+        <h2>Últimas Notícias Espaciais</h2>
+        <!-- Conteúdo sobre notícias recentes da NASA -->
+    </section>
+
     <footer>
-        <p>&copy; 2024 Ferrari. Todos os direitos reservados.</p>
+        <p>&copy; 2024 NASA Explorer. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
-    
