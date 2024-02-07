@@ -3,108 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Explorer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ferrari Fan Club</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #dc0000;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #dc0000;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1, h2, h3 {
+            color: #dc0000;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .ferrari-logo {
+            width: 100px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <img src="nasa-logo.png" alt="NASA Logo" class="logo">
-            <h1>NASA Explorer</h1>
-        </div>
+        <img src="ferrari-logo.png" alt="Ferrari Logo" class="ferrari-logo">
+        <h1>Ferrari Fan Club</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#missions">Missões</a></li>
-            <li><a href="#gallery">Galeria</a></li>
-            <li><a href="#news">Notícias</a></li>
-        </ul>
-    </nav>
+    <section>
+        <h2>Modelos</h2>
+        <p>Descubra os emocionantes modelos da Ferrari e sua história única.</p>
 
-    <section id="missions">
-        <h2>Explorando o Universo</h2>
-        <!-- Conteúdo sobre missões espaciais da NASA -->
-    </section>
+        <h2>Eventos</h2>
+        <p>Participe dos eventos exclusivos organizados pelo Ferrari Fan Club.</p>
 
-    <section id="gallery" class="dark-section">
-        <h2>Galeria Espacial</h2>
-        <!-- Conteúdo sobre imagens e vídeos da NASA -->
-    </section>
-
-    <section id="news">
-        <h2>Últimas Notícias Espaciais</h2>
-        <!-- Conteúdo sobre notícias recentes da NASA -->
+        <h2>Notícias</h2>
+        <p>As últimas notícias e atualizações sobre a Ferrari.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 NASA Explorer. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Ferrari Fan Club. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Explorer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <img src="nasa-logo.png" alt="NASA Logo" class="logo">
-            <h1>NASA Explorer</h1>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#missions">Missões</a></li>
-            <li><a href="#gallery">Galeria</a></li>
-            <li><a href="#news">Notícias</a></li>
-        </ul>
-        <button id="dark-mode-toggle">Modo Escuro</button>
-    </nav>
-
-    <section id="missions">
-        <h2>Explorando o Universo</h2>
-        <!-- Conteúdo sobre missões espaciais da NASA -->
-    </section>
-
-    <section id="gallery" class="dark-section">
-        <h2>Galeria Espacial</h2>
-        <!-- Conteúdo sobre imagens e vídeos da NASA -->
-    </section>
-
-    <section id="news">
-        <h2>Últimas Notícias Espaciais</h2>
-        <!-- Conteúdo sobre notícias recentes da NASA -->
-    </section>
-
-    <footer>
-        <p>&copy; 2024 NASA Explorer. Todos os direitos reservados.</p>
-    </footer>
-
-    <script>
-        const darkModeToggle = document.getElementById('dark-mode-toggle');
-        const body = document.body;
-
-        darkModeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-        });
-    </script>
-</body>
-</html>
-<style>
-    logo {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-    transition: transform 0.5s ease-in-out;
-}
-
-.logo:hover {
-    transform: rotate(360deg);
-}
-
