@@ -42,3 +42,57 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="nasa-logo.png" alt="NASA Logo" class="logo">
+            <h1>NASA Explorer</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#missions">Missões</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#news">Notícias</a></li>
+        </ul>
+        <button id="dark-mode-toggle">Modo Escuro</button>
+    </nav>
+
+    <section id="missions">
+        <h2>Explorando o Universo</h2>
+        <!-- Conteúdo sobre missões espaciais da NASA -->
+    </section>
+
+    <section id="gallery" class="dark-section">
+        <h2>Galeria Espacial</h2>
+        <!-- Conteúdo sobre imagens e vídeos da NASA -->
+    </section>
+
+    <section id="news">
+        <h2>Últimas Notícias Espaciais</h2>
+        <!-- Conteúdo sobre notícias recentes da NASA -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NASA Explorer. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
